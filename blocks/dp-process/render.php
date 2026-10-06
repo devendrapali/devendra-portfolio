@@ -1,0 +1,39 @@
+<?php
+/**
+ * Block: Process
+ * Static markup from the design — swap literals for get_field() calls as ACF/SCF fields are added.
+ */
+?>
+<section class="dp-section dp-process" id="process" data-block="process" data-screen-label="Process">
+    <div class="dp-container">
+      <div class="dp-head">
+        <div class="dp-head__text" data-reveal="">
+          <span class="dp-eyebrow">How I work</span>
+          <h2 class="dp-title">A simple, four-step process</h2>
+          <p class="dp-lead">Instead of jumping into long, expensive builds, I start with a prototype — then refine it into a site that’s ready to launch.</p>
+        </div>
+      </div>
+      <ol class="dp-steps">
+        <li class="dp-step" data-reveal="" data-i="0">
+          <span class="dp-step__num">01</span>
+          <h3 class="dp-step__title">Planning &amp; design</h3>
+          <p class="dp-step__text">Gathering requirements, understanding your goals and shaping the layout in Figma.</p>
+        </li>
+        <li class="dp-step" data-reveal="" data-i="1">
+          <span class="dp-step__num">02</span>
+          <h3 class="dp-step__title">Front-end development</h3>
+          <p class="dp-step__text">Building the structure in semantic HTML, styling with CSS and adding interaction with JavaScript.</p>
+        </li>
+        <li class="dp-step" data-reveal="" data-i="2">
+          <span class="dp-step__num">03</span>
+          <h3 class="dp-step__title">Testing &amp; optimisation</h3>
+          <p class="dp-step__text">Checking every page across browsers and devices, then tuning speed and accessibility.</p>
+        </li>
+        <li class="dp-step" data-reveal="" data-i="3">
+          <span class="dp-step__num">04</span>
+          <h3 class="dp-step__title">Deployment &amp; care</h3>
+          <p class="dp-step__text">Launching on your hosting, handing over an easy editor and staying on for maintenance.</p>
+        </li>
+      </ol>
+    </div>
+  </section>

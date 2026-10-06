@@ -1,0 +1,11 @@
+/* CTA block */
+.dp-cta__panel { position: relative; display: grid; grid-template-columns: minmax(0, 1.4fr) auto; align-items: end; gap: 40px; padding: clamp(40px, 6vw, 80px); border-radius: var(--dp-r-lg); background: var(--dp-accent); color: #fff; overflow: hidden; box-shadow: 0 30px 80px color-mix(in srgb, var(--dp-accent) 35%, transparent); }
+.dp-cta__panel::before, .dp-cta__panel::after { content: ""; position: absolute; border-radius: 50%; border: 2px solid rgb(255 255 255 / .18); pointer-events: none; }
+.dp-cta__panel::before { width: 520px; height: 520px; right: -160px; top: -260px; }
+.dp-cta__panel::after { width: 320px; height: 320px; right: -60px; top: -160px; }
+.dp-cta__copy { position: relative; display: grid; gap: 18px; }
+.dp-cta__title { font-size: clamp(38px, 5.4vw, 68px); font-weight: 800; letter-spacing: -.03em; }
+.dp-cta__text { font-size: 19px; max-width: 520px; color: #fff; }
+.dp-cta__actions { position: relative; display: grid; gap: 14px; justify-items: start; }
+.dp-site .dp-cta__mail { color: #fff; font-weight: 600; border-bottom: 1.5px solid rgb(255 255 255 / .5); padding-bottom: 2px; }
+.dp-site .dp-cta__mail:hover { color: #fff; border-color: #fff; }

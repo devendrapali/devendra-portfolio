@@ -1,0 +1,40 @@
+<?php
+/**
+ * Block: Site Footer
+ * Static markup from the design — swap literals for get_field() calls as ACF/SCF fields are added.
+ */
+?>
+<footer class="dp-footer" data-block="footer">
+    <div class="dp-container">
+      <div class="dp-footer__grid">
+        <div class="dp-footer__about">
+          <a class="dp-brand" href="#top"><span class="dp-brand__mark">DP</span><span class="dp-brand__name">Devendra<span>Pali</span></span></a>
+          <p>Design, develop and deploy. Front-end development and WordPress builds from Kathmandu, Nepal.</p>
+        </div>
+        <div class="dp-footer__col">
+          <span class="dp-footer__heading">Explore</span>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/about-us/">About</a>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/my-team/">My team</a>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/blog/">Blog</a>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/contact-us/">Contact</a>
+        </div>
+        <div class="dp-footer__col">
+          <span class="dp-footer__heading">Tools</span>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/color-selector/">Color Selector</a>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/gradient-generator/">Gradient Generator</a>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/box-shadow-generator/">Box Shadow</a>
+          <a class="dp-footer__link" href="https://devendrapali.com.np/css-minifier/">CSS Minifier</a>
+        </div>
+        <div class="dp-footer__col">
+          <span class="dp-footer__heading">Contact</span>
+          <a class="dp-footer__link" href="tel:+9779849902497">+977 984 990 2497</a>
+          <a class="dp-footer__link" href="mailto:dev.devendrapali@gmail.com">Email me</a>
+          <span class="dp-footer__link">Baneshwor, Kathmandu</span>
+        </div>
+      </div>
+      <div class="dp-footer__bottom">
+        <span>© 2026 DevendraPali. All rights reserved.</span>
+        <button class="dp-totop" type="button" data-action="top">Back to top <svg class="dp-icon" viewBox="0 0 24 24"><path d="m5 12 7-7 7 7"></path><path d="M12 19V5"></path></svg></button>
+      </div>
+    </div>
+  </footer>

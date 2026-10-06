@@ -1,0 +1,12 @@
+/* Testimonials block */
+.dp-testimonials { padding-top: 0; }
+.dp-quotes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.dp-quote { display: grid; gap: 24px; align-content: space-between; margin: 0; padding: 32px; border-radius: var(--dp-r-md); background: var(--dp-surface); border: 1px solid var(--dp-line); box-shadow: var(--dp-shadow-sm); transition: transform .5s var(--dp-ease), box-shadow .5s var(--dp-ease); }
+.dp-quote:hover { transform: translateY(-6px); box-shadow: var(--dp-shadow-lg); }
+.dp-quote__mark { width: 32px; height: 32px; color: var(--dp-accent); }
+.dp-quote__text { margin: 0; font-size: 18px; line-height: 1.55; text-wrap: pretty; }
+.dp-quote__who { display: flex; align-items: center; gap: 14px; padding-top: 20px; border-top: 1px solid var(--dp-line); }
+.dp-quote__avatar { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: var(--dp-accent-soft); color: var(--dp-accent-ink); font-weight: 700; font-size: 15px; }
+.dp-quote__id { display: grid; }
+.dp-quote__name { font-weight: 700; }
+.dp-quote__role { font-size: 14px; color: var(--dp-ink-2); }

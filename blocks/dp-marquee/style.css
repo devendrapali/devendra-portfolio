@@ -1,0 +1,6 @@
+/* Marquee strip */
+.dp-strip { border-block: 1px solid var(--dp-line); padding: 22px 0; overflow: hidden; }
+.dp-strip__track { display: flex; gap: 56px; width: max-content; animation: dp-marquee 38s linear infinite; }
+.dp-strip:hover .dp-strip__track { animation-play-state: paused; }
+.dp-strip__item { display: inline-flex; align-items: center; gap: 56px; font-size: 20px; font-weight: 700; color: var(--dp-ink-2); white-space: nowrap; }
+.dp-strip__item::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--dp-accent); }
